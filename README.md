@@ -1,8 +1,8 @@
-## 🧪 OOP Lab 5 – C++
+# 🧪 OOP Lab 5 – C++
 
 This repository contains Lab 5 of my Object-Oriented Programming (OOP) course using C++, as part of the ITI program.
 
-# 📌 Lab Overview
+## 📌 Lab Overview
 
 This lab focuses on practicing pointers, dynamic memory, smart pointers, menus, and custom line editors.
 You will see implementations of:
@@ -21,11 +21,11 @@ Two custom-built line editors
 
 Basic employee management system (Add, Display, Display All)
 
-# 🧱 Project Structure
+## 🧱 Project Structure
 
 The main functionality of this lab includes:
 
-# 🔹 1. Swapping Functions
+## 🔹 1. Swapping Functions
 
 swapByReference(int &a, int &b)
 
@@ -33,11 +33,11 @@ swapByAddress(int *a, int *b)
 
 Demonstrates the difference between pass-by-reference and pass-by-pointer.
 
-# 🔹 2. Dynamic Arrays
+## 🔹 2. Dynamic Arrays
 
 User enters number of elements → array is dynamically allocated → values are printed → memory freed.
 
-# 🔹 3. Employee Management System
+## 🔹 3. Employee Management System
 
 A small system demonstrating:
 
@@ -51,7 +51,7 @@ Employees are stored inside a smart pointer:
 
 unique_ptr<Employee[]> employees = make_unique<Employee[]>(maxEmployees);
 
-# 🔹 4. Interactive Menu
+## 🔹 4. Interactive Menu
 
 A highlight menu using:
 
@@ -63,11 +63,11 @@ ESC to exit
 
 Works through getch() and terminal cursor control.
 
-# 🔹 5. Custom Line Editors
+## 🔹 5. Custom Line Editors
 
 Two versions:
 
-# ✏️ LineEditor1
+## ✏️ LineEditor1
 
 Uses fixed-size char arrays on the stack
 
@@ -75,7 +75,7 @@ Fully interactive: typing, arrow movement, backspace, cursor control
 
 Displays a green background line (\033[42m)
 
-# ✏️ LineEditor2
+## ✏️ LineEditor2
 
 Dynamically allocates char arrays
 
@@ -83,7 +83,7 @@ Same features but manually managed memory
 
 Yellow background line (\033[43m)
 
-# 🧰 Technologies Used
+## 🧰 Technologies Used
 
 C++
 
@@ -99,7 +99,7 @@ conio.h for keyboard input
 
 ANSI Escape Codes for cursor movement
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 Mohanad Tarek (Honda)
 OOP Lab – ITI Program
